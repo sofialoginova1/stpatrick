@@ -1,0 +1,113 @@
+.cvet1{
+background: #16623E;
+}
+.nav-tekst{
+font-size: 30px;
+}
+.nav-link{
+color: black;
+}
+a{
+    font-size: 40px;
+    color: black;
+    padding: 70px;
+    text-decoration: none;
+    align-self: center;
+    font-family: 'Bell MT', monospace;
+}
+
+a:hover{
+    color: #cb99dd !important;
+    text-decoration: none;
+
+}
+li{
+    a: center;
+    display: inline;
+    vertical-align: 15px;
+}
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+.img_product{
+    left: 500px;
+    top: 100px;
+}
+.knopka:hover {
+    background-color: #cb99dd !important;
+    border-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+ .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container {
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image {
+            max-width: 100%;
+            max-height: 400px;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.4s;
+        }
+
+        .image-container:hover .image, .image-container:hover .caption {
+            transform: scale(1.2);
+        }
+
+        .caption {
+            display: block;
+            margin: 5px 0;
+            font-size: 30px;
+            font-family: 'Bell MT', monospace;
+        }
+        .container {
+            width: 1000px;
+            height: 110px;
+            background-color: #E6BBF6;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            padding: 50px;
+        }
+
+        .text {
+            color: black; /* Цвет текста */
+            font-size: 35px; /* Размер шрифта */
+            font-family: 'Bell MT', monospace;
+        }
+
+   .dropdown {
+    position: static;
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+.btn.knopka i {
+    font-size: 30px;
+}
+.dropdown-menu {
+    width: auto;
+    min-width: 400px;
+}
+ .navbar-collapse {
+        max-width: 1000vw;
+        }
+ #menuContent {
+    position: static;
+     background-color:#BD52E3;
+    padding: 0px;
+    width: 0px;
+}
